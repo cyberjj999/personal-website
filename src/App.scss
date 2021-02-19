@@ -56,22 +56,39 @@ nav {
   > .awssld__box
   > .awssld__content
   > img {
-  color: red;
+  // This will fix the issue with image stretching
   object-fit: contain;
+  // We need bg colour to show the arrow
+  // background-color: #ebe1ce;
+  // background-color: #bcb4a5;
+  // background-color: #a6a6a6;
 }
+
+.awssld__controls__arrow-right::before {
+  background-color: black !important;
+}
+.awssld__controls__arrow-right::after {
+  background-color: black !important;
+}
+
+.awssld__controls__arrow-left::before {
+  background-color: black !important;
+}
+.awssld__controls__arrow-left::after {
+  background-color: black !important;
+}
+
+// .slider-contain
+//   > .awssld
+//   > .awssld__wrapper
+//   > .awssld__controls
+//   > .awssld__next
+//   > .awssld__controls__arrow-right::before {
+//   background-color: black;
+// }
+
 // .myNavLink {
 //   padding: 40px;
-// }
-// .fab:hover {
-//   color: black !important;
-//   // background: blanchedalmond;
-//   // color: "#777";
-//   // & {
-//   //   color: "#777";
-//   // }
-//   // &:hover {
-//   //   color: yellow;
-//   // }
 // }
 
 html {

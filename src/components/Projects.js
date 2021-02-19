@@ -29,11 +29,16 @@ class Projects extends Component {
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
                 <div>
+                  {/*
+                  style={{ backgroundColor: "gray" }}  #EBE1CE */}
                   <img
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
                     style={{
+                      maxHeight: "100%",
+                      maxWidth: "100%",
+                      objectFit: "contain",
                       marginBottom: 0,
                       paddingBottom: 0,
                       position: "relative",

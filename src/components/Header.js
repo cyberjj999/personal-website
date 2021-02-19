@@ -42,8 +42,6 @@ class Header extends Component {
           </span>
         );
       });
-
-      console.log(networks);
     }
 
     const HeaderTitleTypeAnimation = React.memo(

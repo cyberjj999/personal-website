@@ -89,14 +89,18 @@ class ProjectDetailsModal extends Component {
                 data-inline="false"
               ></span>
             </div>
-            <AwesomeSlider
-              // cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
-              animation="scaleOutAnimation"
-              className="slider-image"
-              // style={{ "--slider-height-percentage": "120%" }}
-            >
-              {img}
-            </AwesomeSlider>
+            {/* OMG THANK GOD TO THIS GUY WHO SUGGESTED THIS SOLUTION TO OVERRIDE THE STRETCH CSS
+            https://github.com/rcaferati/react-awesome-slider/issues/147 */}
+            <div className="slider-contain">
+              <AwesomeSlider
+                cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+                animation="scaleOutAnimation"
+                className="slider-image"
+                // style={{ "--slider-height-percentage": "100%" }}
+              >
+                {img}
+              </AwesomeSlider>
+            </div>
           </div>
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
@@ -126,13 +130,6 @@ class ProjectDetailsModal extends Component {
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
-          </div>
-          <div key={0} className="landscape">
-            <img
-              className="myImg"
-              src="images/semester-project/year1sem2/Nutrition-Tracking-Homepage.png"
-              alt=""
-            ></img>
           </div>
         </div>
       </Modal>
