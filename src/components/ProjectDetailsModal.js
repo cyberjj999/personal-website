@@ -33,7 +33,25 @@ class ProjectDetailsModal extends Component {
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
             return <div key={i} data-src={elem} />;
-            // return <img src={elem}></img>;
+            // return (
+            //   <div key={i} className="landscape">
+            //     <img className="myImg" src={elem} alt=""></img>
+            //   </div>
+            // );
+            // return (
+            //   <div key={i}>
+            //     <img
+            //       alt=""
+            //       src={elem}
+            //       style={{
+            //         // objectFit: "contain",
+            //         width: "100%",
+            //         height: "auto",
+            //         // display: "block",
+            //       }}
+            //     ></img>
+            //   </div>
+            // );
           });
         }
       }
@@ -72,9 +90,10 @@ class ProjectDetailsModal extends Component {
               ></span>
             </div>
             <AwesomeSlider
-              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+              // cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
               animation="scaleOutAnimation"
               className="slider-image"
+              // style={{ "--slider-height-percentage": "120%" }}
             >
               {img}
             </AwesomeSlider>
@@ -107,6 +126,13 @@ class ProjectDetailsModal extends Component {
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
+          </div>
+          <div key={0} className="landscape">
+            <img
+              className="myImg"
+              src="images/semester-project/year1sem2/Nutrition-Tracking-Homepage.png"
+              alt=""
+            ></img>
           </div>
         </div>
       </Modal>

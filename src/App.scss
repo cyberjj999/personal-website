@@ -35,9 +35,33 @@ nav {
   // }
 }
 
-.myNavLink {
-  padding: 40px;
+// .myImg {
+//   max-width: 100% !important;
+//   max-height: 100% !important;
+//   // width: 50%;
+//   // height: 30% !important;
+// }
+// .landscape {
+//   text-align: center;
+//   // max-height: fit-content;
+//   // max-width: fit-content;
+//   // max-height: 370px;
+//   // width: 600px;
+// }
+
+.slider-contain
+  > .awssld
+  > .awssld__wrapper
+  > .awssld__container
+  > .awssld__box
+  > .awssld__content
+  > img {
+  color: red;
+  object-fit: contain;
 }
+// .myNavLink {
+//   padding: 40px;
+// }
 // .fab:hover {
 //   color: black !important;
 //   // background: blanchedalmond;

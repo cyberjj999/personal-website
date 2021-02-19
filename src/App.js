@@ -97,12 +97,8 @@ class App extends Component {
             className="justify-content-center"
           >
             <Nav>
-              <Nav.Link href="#home" className="myNavLink">
-                Home
-              </Nav.Link>
-              <Nav.Link href="#about" className="myNavLink">
-                About
-              </Nav.Link>
+              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#portfolio">Projects</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
               <Nav.Link href="#resume">Experience</Nav.Link>
