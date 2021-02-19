@@ -7,9 +7,10 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+// import ContactForm from "./components/ContactForm";
+import { Navbar, Nav } from "react-bootstrap";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -20,27 +21,28 @@ class App extends Component {
   }
 
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
+    // this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+    var resumePath = `res_primaryLanguage.json`;
+    // var resumePath =
+    //   document.documentElement.lang === window.$primaryLanguage
+    //     ? `res_primaryLanguage.json`
+    //     : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
-  }
+  // swapCurrentlyActiveLanguage(oppositeLangIconId) {
+  //   var pickedLangIconId =
+  //     oppositeLangIconId === window.$primaryLanguageIconId
+  //       ? window.$secondaryLanguageIconId
+  //       : window.$primaryLanguageIconId;
+  //   document
+  //     .getElementById(oppositeLangIconId)
+  //     .removeAttribute("filter", "brightness(40%)");
+  //   document
+  //     .getElementById(pickedLangIconId)
+  //     .setAttribute("filter", "brightness(40%)");
+  // }
 
   componentDidMount() {
     this.loadSharedData();
@@ -82,8 +84,39 @@ class App extends Component {
   render() {
     return (
       <div>
+        <Navbar
+          collapseOnSelect
+          expand="lg"
+          bg="dark"
+          variant="dark"
+          className="fixed-top py-3"
+        >
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse
+            id="responsive-navbar-nav"
+            className="justify-content-center"
+          >
+            <Nav>
+              <Nav.Link href="#home" className="myNavLink">
+                Home
+              </Nav.Link>
+              <Nav.Link href="#about" className="myNavLink">
+                About
+              </Nav.Link>
+              <Nav.Link href="#portfolio">Projects</Nav.Link>
+              <Nav.Link href="#skills">Skills</Nav.Link>
+              <Nav.Link href="#resume">Experience</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+
         <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
+        {/* Start */}
+        {/* <div className="col-md-12">
+          <div className="social-links">{networks}</div>
+        </div> */}
+        {/* End */}
+        {/* <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
               this.applyPickedLanguage(
@@ -94,6 +127,7 @@ class App extends Component {
             style={{ display: "inline" }}
           >
             <span
+              style={{ visibility: "hidden" }}
               className="iconify language-icon mr-5"
               data-icon="twemoji-flag-for-flag-united-kingdom"
               data-inline="false"
@@ -110,13 +144,14 @@ class App extends Component {
             style={{ display: "inline" }}
           >
             <span
+              style={{ visibility: "hidden" }}
               className="iconify language-icon"
               data-icon="twemoji-flag-for-flag-poland"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
           </div>
-        </div>
+        </div> */}
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
@@ -133,6 +168,7 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        {/* <ContactForm /> */}
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );

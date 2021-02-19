@@ -17,7 +17,8 @@ class Projects extends Component {
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
+      // var sectionName = this.props.resumeBasicInfo.section_name.projects;  // I change to Semester Project for now
+      var sectionName = "Semester Projects in Nanyang Polytechnic";
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
@@ -32,7 +33,11 @@ class Projects extends Component {
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{
+                      marginBottom: 0,
+                      paddingBottom: 0,
+                      position: "relative",
+                    }}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />

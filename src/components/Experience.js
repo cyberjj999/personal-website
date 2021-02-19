@@ -13,7 +13,9 @@ class Experience extends Component {
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
-
+        const responsibilities = work.responsibilities; // Custom Variable
+        // const companyLogo = work.companyLogo;
+        const companyWebsite = work.companyWebsite;
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
             <Badge pill className="main-badge mr-2 mb-2" key={i}>
@@ -31,13 +33,15 @@ class Experience extends Component {
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={work.years}
+            // date={work.years}
             iconStyle={{
               background: "#AE944F",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            // icon={<i className="fab fa-google experience-icon"></i>}
+            // icon={<img src={companyLogo}></img>}
+            icon={<i className="fas fa-laptop-code experience-icon"></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
@@ -56,6 +60,16 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
+            <a href={companyWebsite} target="_blank" rel="noopener noreferrer">
+              {work.company}'s Official Website Link
+            </a>
+            {/* Custom Tag */}
+            <p style={{ whiteSpace: "pre-line" }}>
+              <b>Responsibilities/Roles</b>
+              <br></br>
+              {responsibilities}
+            </p>
+            {/* Custom Tag End */}
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>
         );

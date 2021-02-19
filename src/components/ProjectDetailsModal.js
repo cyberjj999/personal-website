@@ -10,7 +10,9 @@ class ProjectDetailsModal extends Component {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
       var title = this.props.data.title;
-      var description = this.props.data.description;
+      var grade = this.props.data.grade; // Custom Variable
+      var otherInfo = this.props.data.otherInfo; // Custom Variable
+      var description = this.props.data.description; // Custom Variable
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
@@ -31,6 +33,7 @@ class ProjectDetailsModal extends Component {
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
             return <div key={i} data-src={elem} />;
+            // return <img src={elem}></img>;
           });
         }
       }
@@ -93,7 +96,14 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <p className="modal-description" style={{ whiteSpace: "pre-line" }}>
+              {/* Custom Tag */}
+              <b>Awarded {grade} Grade for this Project</b>
+              <br></br>
+              {otherInfo !== "" && <b> {otherInfo} </b>}
+              {/* Custom Tag End*/}
+              {description}
+            </p>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
