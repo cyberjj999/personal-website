@@ -40,13 +40,13 @@
       "grade": "Distinction",
       "description": "As part of NYP's Operations Security & Project Module, I am tasked to develop a security solution that covers the aspect of Continuous Monitoring in Operational Security.\nUsing Splunk, I am able to successfully detect the following\n• Suspicious Login Activity on Web Server (e.g. Brute Force Attack, Logon Activities during Unusual Hours)\n• Suspicious Website Activity (e.g. Website Crash, Irregular Response Time)\n• Attacker Clearing of Tracks (e.g. Audit Logs Cleared, Splunk Forwarder Deactivated)\n• Suspicious Internal Splunk Activity (e.g. Unauthorized Searches by User)\n• Suspicious Acitivity within Web Server (e.g. Malicious Powershell Commands Executed)\nas well as create powerful visualizations (e.g. Windows Overview, Website Overview)\n\nI have also successfully integrated with my team member's work - Microsoft Azure, pfSense (Firewall) and Ansible, allowing me to detect some of the following (non-exhaustive)\n• Microsoft Azure Storage Vault Deleted\n• Suspicious Network Traffic matching pfSense Blocklist\n• Critical Services disabled via Ansible Playbook\n\nSoftware Used: Splunk\nSplunk App Used\n• Splunk Add-on for Microsoft Windows\n• Splunk App for Windows Infrastructure\n• Splunk Website Monitoring App\n• Splunk Add-on for Microsoft IIS\n• Splunk Add-on for Microsoft Cloud Services\n• Splunk Ansible Monitoring and Diagnostics\n• Splunk TA-pfSense\n• Splunk App TA and App for pfSense by A3Sec\n• Splunk EventGen",
       "images": [
-        "images/semester-project/year3sem1/Window_Infrastructure_Dashboard.png",
-        "images/semester-project/year3sem1/Azure_Integration.png",
-        "images/semester-project/year3sem1/Azure_Delete_EventHub.png",
-        "images/semester-project/year3sem1/Pf_Sense_Dashboard.png",
-        "images/semester-project/year3sem1/Ansible_Dashboard.png",
-        "images/semester-project/year3sem1/Ansible_Firewall_Stopped.png",
-        "images/semester-project/year3sem1/Website_Monitoring_Dashboard.png"
+        "images/semester-project/year3sem1/Window_Infrastructure_Dashboard.PNG",
+        "images/semester-project/year3sem1/Azure_Integration.PNG",
+        "images/semester-project/year3sem1/Azure_Delete_EventHub.PNG",
+        "images/semester-project/year3sem1/Pf_Sense_Dashboard.PNG",
+        "images/semester-project/year3sem1/Ansible_Dashboard.PNG",
+        "images/semester-project/year3sem1/Ansible_Firewall_Stopped.PNG",
+        "images/semester-project/year3sem1/Website_Monitoring_Dashboard.PNG"
       ],
       "url": "",
       "technologies": [
@@ -62,18 +62,18 @@
       "grade": "Distinction",
       "description": "As part of NYP's Application Security & Project Module, I am tasked to develop a security solution that covers the development of a secure web application using ASP.NET\n\nIn this project, I developed an integrated & secure ASP.NET MVC Web Application that is geared towards combating issues regarding PMD Safety in Singapore.\nThe Project has a strong focus on Application Security and the finished project is secure against the OWASP Top 10, i.e. Parameterized Query was used to prevent SQL Injection, exception handling to prevent disclosing sensitive codes to the attackers etc.\n\nList of Features :\nLogin\n- Login (Including 2FA, External Authentication, Lockout Account upon multiple wrong attempts)\n- Registration (Recaptcha, Password Hashed + Salted in database)\n- Forget Password\n\nManage\n- Update Profile Picture - File Header Signature check to ensure only valid JPG/PNG files are uploaded\n- Change Password\n\nInsurance Claim\n- Claim by User - Smart PDF Reader that extracts the content of a pre-filled PDF Claim Form, validate the content, before accepting into the system\n- Manage Claims - Admin is able to approve/deny claims\n\nSuper Admin Management\n- CRUD of Roles (Aid in roles-based access)\n- User Management (Register/delete new user, lock/unlock user, revoke/assign roles, reset user password)\n- Security Configurations (Set password policy - password ageing, min length etc)\n- View System Logs (Errors, Warnings and Info are logged and can be downloaded as PDF, CSV or Excel file)\n\nLanguage Used : C#(Primary) HTML, CSS, Javascript/Jquery\nFramework : ASP.NET MVC, Identity Framework, Entity Framework",
       "images": [
-        "images/semester-project/year2sem2/Login.png",
-        "images/semester-project/year2sem2/Register.png",
-        "images/semester-project/year2sem2/Forget-Password.png",
-        "images/semester-project/year2sem2/User-Manage-Page.png",
-        "images/semester-project/year2sem2/Change-Avatar.png",
-        "images/semester-project/year2sem2/Change-Password.png",
-        "images/semester-project/year2sem2/Claim-Insurance.png",
-        "images/semester-project/year2sem2/Manage-Claims.png",
-        "images/semester-project/year2sem2/Roles-Management.png",
-        "images/semester-project/year2sem2/Security-Management.png",
-        "images/semester-project/year2sem2/Users-Management.png",
-        "images/semester-project/year2sem2/Logs.png"
+        "images/semester-project/year2sem2/Login.PNG",
+        "images/semester-project/year2sem2/Register.PNG",
+        "images/semester-project/year2sem2/Forget-Password.PNG",
+        "images/semester-project/year2sem2/User-Manage-Page.PNG",
+        "images/semester-project/year2sem2/Change-Avatar.PNG",
+        "images/semester-project/year2sem2/Change-Password.PNG",
+        "images/semester-project/year2sem2/Claim-Insurance.PNG",
+        "images/semester-project/year2sem2/Manage-Claims.PNG",
+        "images/semester-project/year2sem2/Roles-Management.PNG",
+        "images/semester-project/year2sem2/Security-Management.PNG",
+        "images/semester-project/year2sem2/Users-Management.PNG",
+        "images/semester-project/year2sem2/Logs.PNG"
       ],
       "url": "https://github.com/cyberjj999/y2s2-pmd-web-application",
       "technologies": [
@@ -106,10 +106,10 @@
       "otherInfo": "This project was also selected among the cohort to be showcased during NYP Open House 2020!",
       "description": "\nAs part of NYP's Network Security & Project Module, I am tasked to develop a security solution that covers the area of network security\nIn this project, I developed a security solution that would strengthen the network security of an enterprise, using google chrome extensions.\n\nSecure chrome extensions includes :\nMalicious Link Detector (Redirects user to blockpage if a website is identified as malicious - using a machine learning model)\nHTTPS Only (Convert a page to its HTTPS version if one exists)\nSecurity Awareness (Users can see latest cyber news upon opening of new tab or clicking of the chrome extension icon)\nClean It (Simple GUI that allow users to clear browsing history with a click of a button)\n\nLanguage Used : HTML, CSS, Python, Javascript/Jquery\nFramework Used: Flask",
       "images": [
-        "images/semester-project/year2sem1/Malicious-Link-Detector.png",
-        "images/semester-project/year2sem1/Security-Awareness.png",
-        "images/semester-project/year2sem1/Clear-It.png",
-        "images/semester-project/year2sem1/HTTPS-Only.png"
+        "images/semester-project/year2sem1/Malicious-Link-Detector.PNG",
+        "images/semester-project/year2sem1/Security-Awareness.PNG",
+        "images/semester-project/year2sem1/Clear-It.PNG",
+        "images/semester-project/year2sem1/HTTPS-Only.PNG"
       ],
       "url": "https://github.com/cyberjj999/y2s1-security-chrome-extensions",
       "technologies": [
@@ -145,13 +145,13 @@
       "grade": "A",
       "description": "As part of NYP's Object-Oriented Programming & Project Module, I am tasked to develop a Desktop Application using Java\n\nIn this project, I developed an Integrated application coded using Java, aimed to improve the quality of life for the elderly , particularly in the healthcare aspect.\nIncludes features such as :\n- Food tracking (User can search for food and add into consumption tab - nutritional details of the food would appear)\n- Consumption tab (View food consumed, total nutritional content, can remove food from consumption tab if added by mistake)\n- User feedback/Admin Inbox (User to Admin and Admin to User message platform)\n- Admin Food Addition Page (Add food to the database)\n\nLanguage Used : Java\nOther Tools/Technologies : MapDB, Scene Builder",
       "images": [
-        "images/semester-project/year1sem2/Nutrition-Tracking-Homepage.png",
-        "images/semester-project/year1sem2/Filter-Meat.png",
-        "images/semester-project/year1sem2/Add-Food-To-Consumption.png",
-        "images/semester-project/year1sem2/Consumed-Food.png",
-        "images/semester-project/year1sem2/User-Feedback.png",
-        "images/semester-project/year1sem2/Admin-Inbox.png",
-        "images/semester-project/year1sem2/Admin-Add-Food.png"
+        "images/semester-project/year1sem2/Nutrition-Tracking-Homepage.PNG",
+        "images/semester-project/year1sem2/Filter-Meat.PNG",
+        "images/semester-project/year1sem2/Add-Food-To-Consumption.PNG",
+        "images/semester-project/year1sem2/Consumed-Food.PNG",
+        "images/semester-project/year1sem2/User-Feedback.PNG",
+        "images/semester-project/year1sem2/Admin-Inbox.PNG",
+        "images/semester-project/year1sem2/Admin-Add-Food.PNG"
       ],
       "url": "https://github.com/cyberjj999/y1s2-health-app",
       "technologies": [
@@ -167,11 +167,11 @@
       "grade": "A",
       "description": "As part of NYP's Web Applications Development & Project Module, I am tasked to develop a complete website covering the front-end and back-end operations\n\nWeb Application and Design Project - A series of integrated web pages (website) that strives to improve the environment in Nanyang Polytechnic. This is the first Project in Nanyang Polytechnic that introduces the students to HTML, CSS and Javascript.\nPages done by me :\n- About us\n- FAQ\n- Contact Us\n- Info-graphics (Slideshow showing statistics regarding the environment)\n- Admin Timetable (Update timetable of activities available to show to the student users, so they can book it via the e-booking system)\n\nLanguage Used: HTML, CSS, Javascript",
       "images": [
-        "images/semester-project/year1sem1/Infographics.png",
-        "images/semester-project/year1sem1/About-Us.png",
-        "images/semester-project/year1sem1/Admin-Timetable.png",
-        "images/semester-project/year1sem1/Contact-Us.png",
-        "images/semester-project/year1sem1/FAQ.png"
+        "images/semester-project/year1sem1/Infographics.PNG",
+        "images/semester-project/year1sem1/About-Us.PNG",
+        "images/semester-project/year1sem1/Admin-Timetable.PNG",
+        "images/semester-project/year1sem1/Contact-Us.PNG",
+        "images/semester-project/year1sem1/FAQ.PNG"
       ],
       "url": "https://github.com/cyberjj999/y1s1-environment-web-app",
       "technologies": [
@@ -193,7 +193,7 @@
   "experience": [
     {
       "company": "Centre for Strategic Infocomm Technologies",
-      "companyIcon": "images/experience/CSIT-Logo.png",
+      "companyIcon": "images/experience/CSIT-Logo.PNG",
       "companyWebsite": "https://www.csit.gov.sg/",
       "title": "Android Security Researcher",
       "years": "Sep.2020 - Nov.2020 (3 months)",
@@ -203,7 +203,7 @@
     },
     {
       "company": "Scantist",
-      "companyIcon": "images/experience/Scantist-Logo.png",
+      "companyIcon": "images/experience/Scantist-Logo.PNG",
       "companyWebsite": "https://www.scantist.com/",
       "title": "Student Researcher",
       "years": "Mar.2020 - May.2020 (3 months)",
