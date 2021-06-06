@@ -228,7 +228,7 @@
       "title": "Android Security Researcher",
       "years": "Sep.2020 - Nov.2020 (3 months)",
       "mainTech": ["Sep 2020 - Nov 2020 (3 months)"],
-      "responsibilities": "• Developed a Command-Line (Python) Tool that automatically downloads Android Firmware\n• Developed a Command-Line (Python) Tool that analyzes Android Firmware Files\n\nProgramming Languages: Python, Bash, Java\nKey Features:\n- Multiprocessing\n- Logging Functionality\n- SQLite3 Database\n- CSV/Excel File Handling\n- APK Analysis\n\nAlong with the key features mentioned above, I have tested and worked with more than 30+ open source tools to perform reverse engineering, apk analysis and source code analysis on Android Firmware files. I have also created a custom script for analyzing APK java files.",
+      "responsibilities": "• Developed a Command-Line (Python) Tool that automatically downloads Android Firmware\n• Developed a Command-Line (Python) Tool that analyzes Android Firmware Files\nKey Features:\n- Multiprocessing\n- Logging Functionality\n- SQLite3 Database\n- CSV/Excel File Handling\n- APK Analysis\n\nAlong with the key features mentioned above, I have tested and worked with more than 30+ open source tools to perform reverse engineering, apk analysis and source code analysis on Android Firmware files. I have also created a custom script for analyzing APK java files.",
       "technologies": ["Python", "Bash", "Java"]
     },
     {
