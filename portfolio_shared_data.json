@@ -29,11 +29,6 @@
   "skills": {
     "icons": [
       {
-        "name": "Spring",
-        "class": "devicon-spring-plain",
-        "level": "95"
-      },
-      {
         "name": "HTML 5",
         "class": "devicon-html5-plain",
         "level": "95"
