@@ -1,36 +1,56 @@
 {
   "basic_info": {
     "description_header": "Hello!",
-    "description": "👋 I'm Lye Jia Jun. A graduate of Nanyang Polytechnic with a diploma in Cybersecurity & Digital Forensics. Don't let my diploma fool you! Besides cybersecurity, I am equally well trained as a developer and have a few years of experience in developing Mobile App (Kotlin/Flutter/Unity)! I am currently waiting to enlist into the Singapore army!",
+    "description": "👋 I'm Lye Jia Jun. A Graduate of Nanyang Polytechnic with a Diploma with Merit in Cybersecurity & Forensics. I am an experienced Software Engineer with a couple years of experience in developing Mobile App (Kotlin/Flutter/Unity)! I aspire to be an entrepreneur to drive massive impact to the world!",
     "section_name": {
       "about": "About me",
+      "accolades": "Accolades",
       "projects": "Projects",
       "skills": "Skills",
       "experience": "Experience"
     }
   },
+  "accolades": [
+    {
+      "award": "GovTech Singapore",
+      "dateOfAward": "images/experience/GovTech-Logo.PNG",
+      "image": "https://www.tech.gov.sg/",
+      "title": "Software Engineer",
+      "years": "Mar.2021 - Jun.2021 (3 months)",
+      "mainTech": ["Mar 2021 - Jun 2021 (3 months)"],
+      "responsibilities": "Drive the Smart Nation Initiative",
+      "technologies": ["Java"]
+    }
+  ],
   "projects": [
     {
-      "title": "Unity Gratitude App",
+      "title": "GiveBear",
       "startDate": "Year 3 Semester 2",
-      "description": "As part of NYP's Web Applications Development & Project Module, I am tasked to develop a complete website covering the front-end and back-end operations\nWeb Application and Design Project - A series of integrated web pages (website) that strives to improve the environment in Nanyang Polytechnic. This is the first Project in Nanyang Polytechnic that introduces the students to HTML, CSS and Javascript.\nPages done by me :\n- About us\n- FAQ\n- Contact Us\n- Info-graphics (Slideshow showing statistics regarding the environment)\n- Admin Timetable (Update timetable of activities available to show to the student users, so they can book it via the e-booking system)",
+      "grade": "A",
+      "description": "I participated in the iCodeiTell (Pitching) Competition held by NYP School of Information Technology and won the Star Award (1st Prize) with Golden Pass. This provided me with an opportunity to work on my startup project as my FYPJ.\n\nIn my 12 weeks of Final Year Project, I developed a fully functional mobile application - GiveBear, that encourages our users to express their gratitude.\nFeatures Includes:\n• Authentication (Sign In, Sign Up, Forget Password)\n• Profile Setup (Custom Avatar and Introduction Message)\n• Friend System (Find, Add and View Friend's Profile)\n• Shop (Inventory and Currency System)\n• Character Customization (Wardrobe System)\n• Character Movement (Joystick Controller)\n• Camera Movement (Rotate Camera by swiping on screen)\n• Crafting of Gratitude Notes (eCards, Voice and Video Messages)\n• Sending of Gratitude Notes to Friends\n• Receiving of Gratitude Notes\n• Gratitude Journal (Record Events)\n• Monetization (Advertisement and In-App Purchase)\n\nLanguage Used : C#(Primary) and Javascript (PlayFab Cloud Script)\nFramework : Unity Game Engine, PlayFab",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/semester-project/year3sem2/Sign-In.PNG",
+        "images/semester-project/year3sem2/Complete-Profile.PNG",
+        "images/semester-project/year3sem2/View-All-Friends.PNG",
+        "images/semester-project/year3sem2/Shop.PNG",
+        "images/semester-project/year3sem2/Customize-Character.PNG",
+        "images/semester-project/year3sem2/Character-Moving.PNG",
+        "images/semester-project/year3sem2/Camera-Rotate.PNG",
+        "images/semester-project/year3sem2/Create-ECard.PNG",
+        "images/semester-project/year3sem2/Send-Gratitude-Note.PNG",
+        "images/semester-project/year3sem2/Viewing-Gratitude-Note.PNG",
+        "images/semester-project/year3sem2/Gratitude-Journal.PNG",
+        "images/semester-project/year3sem2/Unity-Ads.PNG"
       ],
-      "url": "",
+      "url": "https://app.wideo.co/en/view/32636951612336373716-givebear?utm_source=CopyPaste&utm_medium=share&utm_campaign=sharebox&html5=true",
       "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
         {
           "class": "devicon-csharp-plain",
           "name": "C#"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "Javascript"
         }
       ]
     },
@@ -191,6 +211,16 @@
     }
   ],
   "experience": [
+    {
+      "company": "GovTech Singapore",
+      "companyIcon": "images/experience/GovTech-Logo.PNG",
+      "companyWebsite": "https://www.tech.gov.sg/",
+      "title": "Software Engineer",
+      "years": "Mar.2021 - Jun.2021 (3 months)",
+      "mainTech": ["Mar 2021 - Jun 2021 (3 months)"],
+      "responsibilities": "Drive the Smart Nation Initiative",
+      "technologies": ["Java"]
+    },
     {
       "company": "Centre for Strategic Infocomm Technologies",
       "companyIcon": "images/experience/CSIT-Logo.PNG",
