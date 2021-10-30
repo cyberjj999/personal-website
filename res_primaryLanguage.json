@@ -1,245 +1,255 @@
 {
-  "basic_info": {
-    "description_header": "Hello!",
-    "description": "👋 I'm Lye Jia Jun. A graduate of Nanyang Polytechnic with a Diploma in Cybersecurity & Forensics. I was the Valedictorian for the Class of 2021 and received the Lee Kuan Yew Award with the CSIT Gold Medal Award! I am passionate about technology and want to use it to drive massive impact to the world!",
-    "section_name": {
-      "about": "About me",
-      "accolades": "Accolades",
-      "projects": "Projects",
-      "skills": "Skills",
-      "experience": "Experience"
-    }
-  },
-  "accolades": [
-    {
-      "award": "GovTech Singapore",
-      "dateOfAward": "images/experience/GovTech-Logo.PNG",
-      "image": "https://www.tech.gov.sg/",
-      "title": "Software Engineer",
-      "years": "Mar.2021 - Jun.2021 (3 months)",
-      "mainTech": ["Mar 2021 - Jun 2021 (3 months)"],
-      "responsibilities": "• Write and test code, refine existing source code to improve efficiency\n• Create technical specifications\n• Translate business requirements into technical requirements and communicate with frontend engineers\n• Explore technologies to improve current software architecture\n• Design relational database model for efficient storage",
-      "technologies": ["Java", "Python"]
-    }
-  ],
-  "projects": [
-    {
-      "title": "GiveBear",
-      "startDate": "Year 3 Semester 2",
-      "grade": "A",
-      "description": "I participated in the iCodeiTell (Pitching) Competition held by NYP School of Information Technology and won the Star Award (1st Prize) with Golden Pass. This provided me with an opportunity to work on my startup project as my FYPJ.\n\nIn my 12 weeks of Final Year Project, I developed a fully functional mobile application - GiveBear, that encourages our users to express their gratitude.\nFeatures Includes:\n• Authentication (Sign In, Sign Up, Forget Password)\n• Profile Setup (Custom Avatar and Introduction Message)\n• Friend System (Find, Add and View Friend's Profile)\n• Shop (Inventory and Currency System)\n• Character Customization (Wardrobe System)\n• Character Movement (Joystick Controller)\n• Camera Movement (Rotate Camera by swiping on screen)\n• Crafting of Gratitude Notes (eCards, Voice and Video Messages)\n• Sending of Gratitude Notes to Friends\n• Receiving of Gratitude Notes\n• Gratitude Journal (Record Events)\n• Monetization (Advertisement and In-App Purchase)\n\nLanguage Used : C#(Primary) and Javascript (PlayFab Cloud Script)\nFramework : Unity Game Engine, PlayFab",
-      "images": [
-        "images/semester-project/year3sem2/Sign-In.PNG",
-        "images/semester-project/year3sem2/Complete-Profile.PNG",
-        "images/semester-project/year3sem2/View-All-Friends.PNG",
-        "images/semester-project/year3sem2/Shop.PNG",
-        "images/semester-project/year3sem2/Customize-Character.PNG",
-        "images/semester-project/year3sem2/Character-Moving.PNG",
-        "images/semester-project/year3sem2/Camera-Rotate.PNG",
-        "images/semester-project/year3sem2/Create-ECard.PNG",
-        "images/semester-project/year3sem2/Send-Gratitude-Note.PNG",
-        "images/semester-project/year3sem2/Viewing-Gratitude-Note.PNG",
-        "images/semester-project/year3sem2/Gratitude-Journal.PNG",
-        "images/semester-project/year3sem2/Unity-Ads.PNG"
-      ],
-      "url": "https://app.wideo.co/en/view/32636951612336373716-givebear?utm_source=CopyPaste&utm_medium=share&utm_campaign=sharebox&html5=true",
-      "technologies": [
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "Javascript"
+    "basic_info": {
+        "description_header": "Hello!",
+        "description": "👋 I'm Lye Jia Jun. A graduate of Nanyang Polytechnic with a Diploma in Cybersecurity & Forensics. I was the Valedictorian for the Class of 2021 and received the Lee Kuan Yew Award with the CSIT Gold Medal Award! I am passionate about technology and want to use it to drive massive impact to the world!",
+        "section_name": {
+            "about": "About me",
+            "accolades": "Accolades",
+            "projects": "Projects",
+            "skills": "Skills",
+            "experience": "Experience"
         }
-      ]
     },
-    {
-      "title": "Splunk Continous Monitoring",
-      "startDate": "Year 3 Semester 1",
-      "grade": "Distinction",
-      "description": "As part of NYP's Operations Security & Project Module, I am tasked to develop a security solution that covers the aspect of Continuous Monitoring in Operational Security.\nUsing Splunk, I am able to successfully detect the following\n• Suspicious Login Activity on Web Server (e.g. Brute Force Attack, Logon Activities during Unusual Hours)\n• Suspicious Website Activity (e.g. Website Crash, Irregular Response Time)\n• Attacker Clearing of Tracks (e.g. Audit Logs Cleared, Splunk Forwarder Deactivated)\n• Suspicious Internal Splunk Activity (e.g. Unauthorized Searches by User)\n• Suspicious Acitivity within Web Server (e.g. Malicious Powershell Commands Executed)\nas well as create powerful visualizations (e.g. Windows Overview, Website Overview)\n\nI have also successfully integrated with my team member's work - Microsoft Azure, pfSense (Firewall) and Ansible, allowing me to detect some of the following (non-exhaustive)\n• Microsoft Azure Storage Vault Deleted\n• Suspicious Network Traffic matching pfSense Blocklist\n• Critical Services disabled via Ansible Playbook\n\nSoftware Used: Splunk\nSplunk App Used\n• Splunk Add-on for Microsoft Windows\n• Splunk App for Windows Infrastructure\n• Splunk Website Monitoring App\n• Splunk Add-on for Microsoft IIS\n• Splunk Add-on for Microsoft Cloud Services\n• Splunk Ansible Monitoring and Diagnostics\n• Splunk TA-pfSense\n• Splunk App TA and App for pfSense by A3Sec\n• Splunk EventGen",
-      "images": [
-        "images/semester-project/year3sem1/Window_Infrastructure_Dashboard.PNG",
-        "images/semester-project/year3sem1/Azure_Integration.PNG",
-        "images/semester-project/year3sem1/Azure_Delete_EventHub.PNG",
-        "images/semester-project/year3sem1/Pf_Sense_Dashboard.PNG",
-        "images/semester-project/year3sem1/Ansible_Dashboard.PNG",
-        "images/semester-project/year3sem1/Ansible_Firewall_Stopped.PNG",
-        "images/semester-project/year3sem1/Website_Monitoring_Dashboard.PNG"
-      ],
-      "url": "",
-      "technologies": [
+    "accolades": [
         {
-          "class": "devicon-windows8-original",
-          "name": "Splunk"
+            "award": "GovTech Singapore",
+            "dateOfAward": "images/experience/GovTech-Logo.PNG",
+            "image": "https://www.tech.gov.sg/",
+            "title": "Software Engineer",
+            "years": "Mar.2021 - Jun.2021 (3 months)",
+            "mainTech": ["Mar 2021 - Jun 2021 (3 months)"],
+            "responsibilities": "• Write and test code, refine existing source code to improve efficiency\n• Create technical specifications\n• Translate business requirements into technical requirements and communicate with frontend engineers\n• Explore technologies to improve current software architecture\n• Design relational database model for efficient storage",
+            "technologies": ["Java", "Python"]
         }
-      ]
-    },
-    {
-      "title": "PMD Web App",
-      "startDate": "Year 2 Semester 2",
-      "grade": "Distinction",
-      "description": "As part of NYP's Application Security & Project Module, I am tasked to develop a security solution that covers the development of a secure web application using ASP.NET\n\nIn this project, I developed an integrated & secure ASP.NET MVC Web Application that is geared towards combating issues regarding PMD Safety in Singapore.\nThe Project has a strong focus on Application Security and the finished project is secure against the OWASP Top 10, i.e. Parameterized Query was used to prevent SQL Injection, exception handling to prevent disclosing sensitive codes to the attackers etc.\n\nList of Features :\nLogin\n- Login (Including 2FA, External Authentication, Lockout Account upon multiple wrong attempts)\n- Registration (Recaptcha, Password Hashed + Salted in database)\n- Forget Password\n\nManage\n- Update Profile Picture - File Header Signature check to ensure only valid JPG/PNG files are uploaded\n- Change Password\n\nInsurance Claim\n- Claim by User - Smart PDF Reader that extracts the content of a pre-filled PDF Claim Form, validate the content, before accepting into the system\n- Manage Claims - Admin is able to approve/deny claims\n\nSuper Admin Management\n- CRUD of Roles (Aid in roles-based access)\n- User Management (Register/delete new user, lock/unlock user, revoke/assign roles, reset user password)\n- Security Configurations (Set password policy - password ageing, min length etc)\n- View System Logs (Errors, Warnings and Info are logged and can be downloaded as PDF, CSV or Excel file)\n\nLanguage Used : C#(Primary) HTML, CSS, Javascript/Jquery\nFramework : ASP.NET MVC, Identity Framework, Entity Framework",
-      "images": [
-        "images/semester-project/year2sem2/Login.PNG",
-        "images/semester-project/year2sem2/Register.PNG",
-        "images/semester-project/year2sem2/Forget-Password.PNG",
-        "images/semester-project/year2sem2/User-Manage-Page.PNG",
-        "images/semester-project/year2sem2/Change-Avatar.PNG",
-        "images/semester-project/year2sem2/Change-Password.PNG",
-        "images/semester-project/year2sem2/Claim-Insurance.PNG",
-        "images/semester-project/year2sem2/Manage-Claims.PNG",
-        "images/semester-project/year2sem2/Roles-Management.PNG",
-        "images/semester-project/year2sem2/Security-Management.PNG",
-        "images/semester-project/year2sem2/Users-Management.PNG",
-        "images/semester-project/year2sem2/Logs.PNG"
-      ],
-      "url": "https://github.com/cyberjj999/y2s2-pmd-web-application",
-      "technologies": [
+    ],
+    "projects": [
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+            "title": "GiveBear - Startup Idea",
+            "startDate": "Year 3 Semester 2",
+            "grade": "A",
+            "description": "I participated in the iCodeiTell (Pitching) Competition held by NYP School of Information Technology and won the Star Award (1st Prize) with Golden Pass. This provided me with an opportunity to work on my startup project as my FYPJ.\n\nIn my 12 weeks of Final Year Project, I developed a fully functional mobile application - GiveBear, that encourages our users to express their gratitude.\nFeatures Includes:\n• Authentication (Sign In, Sign Up, Forget Password)\n• Profile Setup (Custom Avatar and Introduction Message)\n• Friend System (Find, Add and View Friend's Profile)\n• Shop (Inventory and Currency System)\n• Character Customization (Wardrobe System)\n• Character Movement (Joystick Controller)\n• Camera Movement (Rotate Camera by swiping on screen)\n• Crafting of Gratitude Notes (eCards, Voice and Video Messages)\n• Sending of Gratitude Notes to Friends\n• Receiving of Gratitude Notes\n• Gratitude Journal (Record Events)\n• Monetization (Advertisement and In-App Purchase)\n\nLanguage Used : C#(Primary) and Javascript (PlayFab Cloud Script)\nFramework : Unity Game Engine, PlayFab",
+            "images": [
+                "images/school-project/year3sem2/Sign-In.PNG",
+                "images/school-project/year3sem2/Complete-Profile.PNG",
+                "images/school-project/year3sem2/View-All-Friends.PNG",
+                "images/school-project/year3sem2/Shop.PNG",
+                "images/school-project/year3sem2/Customize-Character.PNG",
+                "images/school-project/year3sem2/Character-Moving.PNG",
+                "images/school-project/year3sem2/Camera-Rotate.PNG",
+                "images/school-project/year3sem2/Create-ECard.PNG",
+                "images/school-project/year3sem2/Send-Gratitude-Note.PNG",
+                "images/school-project/year3sem2/Viewing-Gratitude-Note.PNG",
+                "images/school-project/year3sem2/Gratitude-Journal.PNG",
+                "images/school-project/year3sem2/Unity-Ads.PNG"
+            ],
+            "url": "https://app.wideo.co/en/view/32636951612336373716-givebear?utm_source=CopyPaste&utm_medium=share&utm_campaign=sharebox&html5=true",
+            "technologies": [
+                {
+                    "class": "devicon-csharp-plain",
+                    "name": "C#"
+                },
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "Javascript"
+                }
+            ]
         },
         {
-          "class": "devicon-html5-plain",
-          "name": "HTML"
+            "title": "Splunk Continous Monitoring",
+            "startDate": "Year 3 Semester 1",
+            "grade": "Distinction",
+            "description": "As part of NYP's Operations Security & Project Module, I am tasked to develop a security solution that covers the aspect of Continuous Monitoring in Operational Security.\nUsing Splunk, I am able to successfully detect the following\n• Suspicious Login Activity on Web Server (e.g. Brute Force Attack, Logon Activities during Unusual Hours)\n• Suspicious Website Activity (e.g. Website Crash, Irregular Response Time)\n• Attacker Clearing of Tracks (e.g. Audit Logs Cleared, Splunk Forwarder Deactivated)\n• Suspicious Internal Splunk Activity (e.g. Unauthorized Searches by User)\n• Suspicious Acitivity within Web Server (e.g. Malicious Powershell Commands Executed)\nas well as create powerful visualizations (e.g. Windows Overview, Website Overview)\n\nI have also successfully integrated with my team member's work - Microsoft Azure, pfSense (Firewall) and Ansible, allowing me to detect some of the following (non-exhaustive)\n• Microsoft Azure Storage Vault Deleted\n• Suspicious Network Traffic matching pfSense Blocklist\n• Critical Services disabled via Ansible Playbook\n\nSoftware Used: Splunk\nSplunk App Used\n• Splunk Add-on for Microsoft Windows\n• Splunk App for Windows Infrastructure\n• Splunk Website Monitoring App\n• Splunk Add-on for Microsoft IIS\n• Splunk Add-on for Microsoft Cloud Services\n• Splunk Ansible Monitoring and Diagnostics\n• Splunk TA-pfSense\n• Splunk App TA and App for pfSense by A3Sec\n• Splunk EventGen",
+            "images": [
+                "images/school-project/year3sem1/Window_Infrastructure_Dashboard.PNG",
+                "images/school-project/year3sem1/Azure_Integration.PNG",
+                "images/school-project/year3sem1/Azure_Delete_EventHub.PNG",
+                "images/school-project/year3sem1/Pf_Sense_Dashboard.PNG",
+                "images/school-project/year3sem1/Ansible_Dashboard.PNG",
+                "images/school-project/year3sem1/Ansible_Firewall_Stopped.PNG",
+                "images/school-project/year3sem1/Website_Monitoring_Dashboard.PNG"
+            ],
+            "url": "",
+            "technologies": [
+                {
+                    "class": "devicon-windows8-original",
+                    "name": "Splunk"
+                }
+            ]
         },
         {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
+            "title": "PMD Web App",
+            "startDate": "Year 2 Semester 2",
+            "grade": "Distinction",
+            "description": "As part of NYP's Application Security & Project Module, I am tasked to develop a security solution that covers the development of a secure web application using ASP.NET\n\nIn this project, I developed an integrated & secure ASP.NET MVC Web Application that is geared towards combating issues regarding PMD Safety in Singapore.\nThe Project has a strong focus on Application Security and the finished project is secure against the OWASP Top 10, i.e. Parameterized Query was used to prevent SQL Injection, exception handling to prevent disclosing sensitive codes to the attackers etc.\n\nList of Features :\nLogin\n- Login (Including 2FA, External Authentication, Lockout Account upon multiple wrong attempts)\n- Registration (Recaptcha, Password Hashed + Salted in database)\n- Forget Password\n\nManage\n- Update Profile Picture - File Header Signature check to ensure only valid JPG/PNG files are uploaded\n- Change Password\n\nInsurance Claim\n- Claim by User - Smart PDF Reader that extracts the content of a pre-filled PDF Claim Form, validate the content, before accepting into the system\n- Manage Claims - Admin is able to approve/deny claims\n\nSuper Admin Management\n- CRUD of Roles (Aid in roles-based access)\n- User Management (Register/delete new user, lock/unlock user, revoke/assign roles, reset user password)\n- Security Configurations (Set password policy - password ageing, min length etc)\n- View System Logs (Errors, Warnings and Info are logged and can be downloaded as PDF, CSV or Excel file)\n\nLanguage Used : C#(Primary) HTML, CSS, Javascript/Jquery\nFramework : ASP.NET MVC, Identity Framework, Entity Framework",
+            "images": [
+                "images/school-project/year2sem2/Login.PNG",
+                "images/school-project/year2sem2/Register.PNG",
+                "images/school-project/year2sem2/Forget-Password.PNG",
+                "images/school-project/year2sem2/User-Manage-Page.PNG",
+                "images/school-project/year2sem2/Change-Avatar.PNG",
+                "images/school-project/year2sem2/Change-Password.PNG",
+                "images/school-project/year2sem2/Claim-Insurance.PNG",
+                "images/school-project/year2sem2/Manage-Claims.PNG",
+                "images/school-project/year2sem2/Roles-Management.PNG",
+                "images/school-project/year2sem2/Security-Management.PNG",
+                "images/school-project/year2sem2/Users-Management.PNG",
+                "images/school-project/year2sem2/Logs.PNG"
+            ],
+            "url": "https://github.com/cyberjj999/y2s2-pmd-web-application",
+            "technologies": [
+                {
+                    "class": "devicon-csharp-plain",
+                    "name": "C#"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS"
+                },
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "Javascript"
+                },
+                {
+                    "class": "devicon-jquery-plain",
+                    "name": "jQuery"
+                }
+            ]
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "Javascript"
+            "title": "Secure Chrome Extensions",
+            "startDate": "Year 2 Semester 1",
+            "grade": "Distinction",
+            "otherInfo": "This project was also selected among the cohort to be showcased during NYP Open House 2020!",
+            "description": "\nAs part of NYP's Network Security & Project Module, I am tasked to develop a security solution that covers the area of network security\nIn this project, I developed a security solution that would strengthen the network security of an enterprise, using google chrome extensions.\n\nSecure chrome extensions includes :\nMalicious Link Detector (Redirects user to blockpage if a website is identified as malicious - using a machine learning model)\nHTTPS Only (Convert a page to its HTTPS version if one exists)\nSecurity Awareness (Users can see latest cyber news upon opening of new tab or clicking of the chrome extension icon)\nClean It (Simple GUI that allow users to clear browsing history with a click of a button)\n\nLanguage Used : HTML, CSS, Python, Javascript/Jquery\nFramework Used: Flask",
+            "images": [
+                "images/school-project/year2sem1/Malicious-Link-Detector.PNG",
+                "images/school-project/year2sem1/Security-Awareness.PNG",
+                "images/school-project/year2sem1/Clear-It.PNG",
+                "images/school-project/year2sem1/HTTPS-Only.PNG"
+            ],
+            "url": "https://github.com/cyberjj999/y2s1-security-chrome-extensions",
+            "technologies": [
+                {
+                    "class": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS"
+                },
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "Javascript"
+                },
+                {
+                    "class": "devicon-jquery-plain",
+                    "name": "jQuery"
+                },
+                {
+                    "class": "devicon-flask-plain",
+                    "name": "Flask"
+                }
+            ]
         },
         {
-          "class": "devicon-jquery-plain",
-          "name": "jQuery"
+            "title": "Desktop Health App",
+            "startDate": "Year 1 Semester 2",
+            "grade": "A",
+            "description": "As part of NYP's Object-Oriented Programming & Project Module, I am tasked to develop a Desktop Application using Java\n\nIn this project, I developed an Integrated application coded using Java, aimed to improve the quality of life for the elderly , particularly in the healthcare aspect.\nIncludes features such as :\n- Food tracking (User can search for food and add into consumption tab - nutritional details of the food would appear)\n- Consumption tab (View food consumed, total nutritional content, can remove food from consumption tab if added by mistake)\n- User feedback/Admin Inbox (User to Admin and Admin to User message platform)\n- Admin Food Addition Page (Add food to the database)\n\nLanguage Used : Java\nOther Tools/Technologies : MapDB, Scene Builder",
+            "images": [
+                "images/school-project/year1sem2/Nutrition-Tracking-Homepage.PNG",
+                "images/school-project/year1sem2/Filter-Meat.PNG",
+                "images/school-project/year1sem2/Add-Food-To-Consumption.PNG",
+                "images/school-project/year1sem2/Consumed-Food.PNG",
+                "images/school-project/year1sem2/User-Feedback.PNG",
+                "images/school-project/year1sem2/Admin-Inbox.PNG",
+                "images/school-project/year1sem2/Admin-Add-Food.PNG"
+            ],
+            "url": "https://github.com/cyberjj999/y1s2-health-app",
+            "technologies": [
+                {
+                    "class": "devicon-java-plain",
+                    "name": "Java"
+                }
+            ]
+        },
+        {
+            "title": "Environment Web App",
+            "startDate": "Year 1 Semester 1",
+            "grade": "A",
+            "description": "As part of NYP's Web Applications Development & Project Module, I am tasked to develop a complete website covering the front-end and back-end operations\n\nWeb Application and Design Project - A series of integrated web pages (website) that strives to improve the environment in Nanyang Polytechnic. This is the first Project in Nanyang Polytechnic that introduces the students to HTML, CSS and Javascript.\nPages done by me :\n- About us\n- FAQ\n- Contact Us\n- Info-graphics (Slideshow showing statistics regarding the environment)\n- Admin Timetable (Update timetable of activities available to show to the student users, so they can book it via the e-booking system)\n\nLanguage Used: HTML, CSS, Javascript",
+            "images": [
+                "images/school-project/year1sem1/Infographics.PNG",
+                "images/school-project/year1sem1/About-Us.PNG",
+                "images/school-project/year1sem1/Admin-Timetable.PNG",
+                "images/school-project/year1sem1/Contact-Us.PNG",
+                "images/school-project/year1sem1/FAQ.PNG"
+            ],
+            "url": "https://github.com/cyberjj999/y1s1-environment-web-app",
+            "technologies": [
+                {
+                    "class": "devicon-html5-plain",
+                    "name": "HTML"
+                },
+                {
+                    "class": "devicon-css3-plain",
+                    "name": "CSS"
+                },
+                {
+                    "class": "devicon-javascript-plain",
+                    "name": "Javascript"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "title": "Secure Chrome Extensions",
-      "startDate": "Year 2 Semester 1",
-      "grade": "Distinction",
-      "otherInfo": "This project was also selected among the cohort to be showcased during NYP Open House 2020!",
-      "description": "\nAs part of NYP's Network Security & Project Module, I am tasked to develop a security solution that covers the area of network security\nIn this project, I developed a security solution that would strengthen the network security of an enterprise, using google chrome extensions.\n\nSecure chrome extensions includes :\nMalicious Link Detector (Redirects user to blockpage if a website is identified as malicious - using a machine learning model)\nHTTPS Only (Convert a page to its HTTPS version if one exists)\nSecurity Awareness (Users can see latest cyber news upon opening of new tab or clicking of the chrome extension icon)\nClean It (Simple GUI that allow users to clear browsing history with a click of a button)\n\nLanguage Used : HTML, CSS, Python, Javascript/Jquery\nFramework Used: Flask",
-      "images": [
-        "images/semester-project/year2sem1/Malicious-Link-Detector.PNG",
-        "images/semester-project/year2sem1/Security-Awareness.PNG",
-        "images/semester-project/year2sem1/Clear-It.PNG",
-        "images/semester-project/year2sem1/HTTPS-Only.PNG"
-      ],
-      "url": "https://github.com/cyberjj999/y2s1-security-chrome-extensions",
-      "technologies": [
+    ],
+    "experience": [
         {
-          "class": "devicon-python-plain",
-          "name": "Python"
+            "company": "Infocomm Media Development Authority (IMDA)",
+            "companyIcon": "images/experience/IMDA-Logo.PNG",
+            "companyWebsite": "https://www.imda.gov.sg/",
+            "title": "AI Software Engineer",
+            "years": "Jul.2021 - Sep.2021 (3 months)",
+            "mainTech": ["Jul 2021 - Sep 2021 (3 months)"],
+            "responsibilities": "Attached to IMDA AI Programme Office under the Smart Scanner Project where I worked on complex computer vision tasks and develop AI solutions which includes OCR & Image Preprocessing\n• Explored image preprocessing algorithms & developed programs to perform binarization, edge detection, contour detection, and perspective warping on warehouse labels images\n• Create program which utilizes existing files to categorize images based on OCR performance\n• Create program to visualize images with OCR results to analyze and determine trends/patterns of suitable & unsuitable images and to compare amongst various OCR Engines used\n• Improve OCR evaluation script which can more accurately access the performance of OCR than the previous approaches\n• Explore public datasets & research papers and perform AI Model Training on industry workstations such as Nvidia DGX & Google Colab",
+            "technologies": ["Python"]
         },
         {
-          "class": "devicon-html5-plain",
-          "name": "HTML"
+            "company": "Government Technology Agency (GovTech Singapore)",
+            "companyIcon": "images/experience/GovTech-Logo.PNG",
+            "companyWebsite": "https://www.tech.gov.sg/",
+            "title": "Software Engineer",
+            "years": "Mar.2021 - Jun.2021 (3 months)",
+            "mainTech": ["Mar 2021 - Jun 2021 (3 months)"],
+            "responsibilities": "• Write and test code, refine existing source code to improve efficiency\n• Create technical specifications\n• Translate business requirements into technical requirements and communicate with frontend engineers\n• Explore technologies to improve current software architecture\n• Design relational database model for efficient storage",
+            "technologies": ["Java", "Python"]
         },
         {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
+            "company": "Centre for Strategic Infocomm Technologies (CSIT)",
+            "companyIcon": "images/experience/CSIT-Logo.PNG",
+            "companyWebsite": "https://www.csit.gov.sg/",
+            "title": "Android Security Researcher",
+            "years": "Sep.2020 - Nov.2020 (3 months)",
+            "mainTech": ["Sep 2020 - Nov 2020 (3 months)"],
+            "responsibilities": "• Developed a Command-Line (Python) Tool that automatically downloads Android Firmware\n• Developed a Command-Line (Python) Tool that analyzes Android Firmware Files\nKey Features:\n- Multiprocessing\n- Logging Functionality\n- SQLite3 Database\n- CSV/Excel File Handling\n- APK Analysis\n\nAlong with the key features mentioned above, I have tested and worked with more than 30+ open source tools to perform reverse engineering, apk analysis and source code analysis on Android Firmware files. I have also created a custom script for analyzing APK java files.",
+            "technologies": ["Python", "Bash", "Java"]
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "Javascript"
-        },
-        {
-          "class": "devicon-jquery-plain",
-          "name": "jQuery"
-        },
-        {
-          "class": "devicon-flask-plain",
-          "name": "Flask"
+            "company": "Scantist Pte Ltd",
+            "companyIcon": "images/experience/Scantist-Logo.PNG",
+            "companyWebsite": "https://www.scantist.com/",
+            "title": "Student Researcher",
+            "years": "Mar.2020 - May.2020 (3 months)",
+            "mainTech": ["Mar 2020 - May 2020 (3 months)"],
+            "responsibilities": "This is part of a University Immersion Programme in Nanyang Polytechnic that allows selected students to be involved in a research project full-time under different Universities.\n\nI was selected and assigned to a computer & network security company, Scantist, under professor Liu Yang in NTU.\nI am involved in several projects/tasks\n- Data Collection and Verification of CVEs in the National Vulnerability Database\n- Data Exploration(EDA) on Dependency Graphs (NEO4J)\n- Development of a Vulnerability Analysis Chrome Extension\n(The Chrome Extension will be able to highlight vulnerable packages to developers)",
+            "technologies": ["HTML", "CSS", "Javascript", "Cypher"]
         }
-      ]
-    },
-    {
-      "title": "Desktop Health App",
-      "startDate": "Year 1 Semester 2",
-      "grade": "A",
-      "description": "As part of NYP's Object-Oriented Programming & Project Module, I am tasked to develop a Desktop Application using Java\n\nIn this project, I developed an Integrated application coded using Java, aimed to improve the quality of life for the elderly , particularly in the healthcare aspect.\nIncludes features such as :\n- Food tracking (User can search for food and add into consumption tab - nutritional details of the food would appear)\n- Consumption tab (View food consumed, total nutritional content, can remove food from consumption tab if added by mistake)\n- User feedback/Admin Inbox (User to Admin and Admin to User message platform)\n- Admin Food Addition Page (Add food to the database)\n\nLanguage Used : Java\nOther Tools/Technologies : MapDB, Scene Builder",
-      "images": [
-        "images/semester-project/year1sem2/Nutrition-Tracking-Homepage.PNG",
-        "images/semester-project/year1sem2/Filter-Meat.PNG",
-        "images/semester-project/year1sem2/Add-Food-To-Consumption.PNG",
-        "images/semester-project/year1sem2/Consumed-Food.PNG",
-        "images/semester-project/year1sem2/User-Feedback.PNG",
-        "images/semester-project/year1sem2/Admin-Inbox.PNG",
-        "images/semester-project/year1sem2/Admin-Add-Food.PNG"
-      ],
-      "url": "https://github.com/cyberjj999/y1s2-health-app",
-      "technologies": [
-        {
-          "class": "devicon-java-plain",
-          "name": "Java"
-        }
-      ]
-    },
-    {
-      "title": "Environment Web App",
-      "startDate": "Year 1 Semester 1",
-      "grade": "A",
-      "description": "As part of NYP's Web Applications Development & Project Module, I am tasked to develop a complete website covering the front-end and back-end operations\n\nWeb Application and Design Project - A series of integrated web pages (website) that strives to improve the environment in Nanyang Polytechnic. This is the first Project in Nanyang Polytechnic that introduces the students to HTML, CSS and Javascript.\nPages done by me :\n- About us\n- FAQ\n- Contact Us\n- Info-graphics (Slideshow showing statistics regarding the environment)\n- Admin Timetable (Update timetable of activities available to show to the student users, so they can book it via the e-booking system)\n\nLanguage Used: HTML, CSS, Javascript",
-      "images": [
-        "images/semester-project/year1sem1/Infographics.PNG",
-        "images/semester-project/year1sem1/About-Us.PNG",
-        "images/semester-project/year1sem1/Admin-Timetable.PNG",
-        "images/semester-project/year1sem1/Contact-Us.PNG",
-        "images/semester-project/year1sem1/FAQ.PNG"
-      ],
-      "url": "https://github.com/cyberjj999/y1s1-environment-web-app",
-      "technologies": [
-        {
-          "class": "devicon-html5-plain",
-          "name": "HTML"
-        },
-        {
-          "class": "devicon-css3-plain",
-          "name": "CSS"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "Javascript"
-        }
-      ]
-    }
-  ],
-  "experience": [
-    {
-      "company": "GovTech Singapore",
-      "companyIcon": "images/experience/GovTech-Logo.PNG",
-      "companyWebsite": "https://www.tech.gov.sg/",
-      "title": "Software Engineer",
-      "years": "Mar.2021 - Jun.2021 (3 months)",
-      "mainTech": ["Mar 2021 - Jun 2021 (3 months)"],
-      "responsibilities": "• Write and test code, refine existing source code to improve efficiency\n• Create technical specifications\n• Translate business requirements into technical requirements and communicate with frontend engineers\n• Explore technologies to improve current software architecture\n• Design relational database model for efficient storage",
-      "technologies": ["Java", "Python"]
-    },
-    {
-      "company": "Centre for Strategic Infocomm Technologies",
-      "companyIcon": "images/experience/CSIT-Logo.PNG",
-      "companyWebsite": "https://www.csit.gov.sg/",
-      "title": "Android Security Researcher",
-      "years": "Sep.2020 - Nov.2020 (3 months)",
-      "mainTech": ["Sep 2020 - Nov 2020 (3 months)"],
-      "responsibilities": "• Developed a Command-Line (Python) Tool that automatically downloads Android Firmware\n• Developed a Command-Line (Python) Tool that analyzes Android Firmware Files\nKey Features:\n- Multiprocessing\n- Logging Functionality\n- SQLite3 Database\n- CSV/Excel File Handling\n- APK Analysis\n\nAlong with the key features mentioned above, I have tested and worked with more than 30+ open source tools to perform reverse engineering, apk analysis and source code analysis on Android Firmware files. I have also created a custom script for analyzing APK java files.",
-      "technologies": ["Python", "Bash", "Java"]
-    },
-    {
-      "company": "Scantist",
-      "companyIcon": "images/experience/Scantist-Logo.PNG",
-      "companyWebsite": "https://www.scantist.com/",
-      "title": "Student Researcher",
-      "years": "Mar.2020 - May.2020 (3 months)",
-      "mainTech": ["Mar 2020 - May 2020 (3 months)"],
-      "responsibilities": "This is part of a University Immersion Programme in Nanyang Polytechnic that allows selected students to be involved in a research project full-time under different Universities.\n\nI was selected and assigned to a computer & network security company, Scantist, under professor Liu Yang in NTU.\nI am involved in several projects/tasks\n- Data Collection and Verification of CVEs in the National Vulnerability Database\n- Data Exploration(EDA) on Dependency Graphs (NEO4J)\n- Development of a Vulnerability Analysis Chrome Extension\n(The Chrome Extension will be able to highlight vulnerable packages to developers)",
-      "technologies": ["HTML", "CSS", "Javascript", "Cypher"]
-    }
-  ]
+    ]
 }

@@ -1,73 +1,77 @@
 {
-  "basic_info": {
-    "name": "Lye Jia Jun",
-    "titles": ["Software Engineer", "Tech Enthusiast", "Aspiring Entrepreneur"],
-    "social": [
-      {
-        "name": "google",
-        "url": "mailto:lyejiajun99@gmail.com",
-        "class": "fas fa-envelope fa-2x"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/cyberjj999",
-        "class": "fab fa-github fa-2x"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/lyejiajun/",
-        "class": "fab fa-linkedin fa-2x"
-      },
-      {
-        "name": "medium",
-        "url": "https://medium.com/@lyejiajun",
-        "class": "fab fa-medium fa-2x"
-      }
-    ],
-    "image": "casualPicture.png"
-  },
-  "skills": {
-    "icons": [
-      {
-        "name": "HTML 5",
-        "class": "devicon-html5-plain",
-        "level": "95"
-      },
-      {
-        "name": "CSS 3",
-        "class": "devicon-css3-plain",
-        "level": "95"
-      },
-      {
-        "name": "JavaScript",
-        "class": "devicon-javascript-plain",
-        "level": "70"
-      },
-      {
-        "name": "Python",
-        "class": "devicon-python-plain",
-        "level": "75"
-      },
-      {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
-        "level": "65"
-      },
-      {
-        "name": "Java",
-        "class": "devicon-java-plain",
-        "level": "65"
-      },
-      {
-        "name": "Flutter",
-        "class": "devicon-flutter-plain",
-        "level": "60"
-      },
-      {
-        "name": "Firebase",
-        "class": "devicon-firebase-plain",
-        "level": "60"
-      }
-    ]
-  }
+    "basic_info": {
+        "name": "Lye Jia Jun",
+        "titles": [
+            "Software Engineer",
+            "Tech Enthusiast",
+            "Aspiring Entrepreneur"
+        ],
+        "social": [
+            {
+                "name": "google",
+                "url": "mailto:lyejiajun.work@gmail.com",
+                "class": "fas fa-envelope fa-2x"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/cyberjj999",
+                "class": "fab fa-github fa-2x"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/lyejiajun/",
+                "class": "fab fa-linkedin fa-2x"
+            },
+            {
+                "name": "medium",
+                "url": "https://medium.com/@lyejiajun",
+                "class": "fab fa-medium fa-2x"
+            }
+        ],
+        "image": "casualPicture.png"
+    },
+    "skills": {
+        "icons": [
+            {
+                "name": "HTML 5",
+                "class": "devicon-html5-plain",
+                "level": "95"
+            },
+            {
+                "name": "CSS 3",
+                "class": "devicon-css3-plain",
+                "level": "95"
+            },
+            {
+                "name": "JavaScript",
+                "class": "devicon-javascript-plain",
+                "level": "70"
+            },
+            {
+                "name": "Python",
+                "class": "devicon-python-plain",
+                "level": "75"
+            },
+            {
+                "name": "C#",
+                "class": "devicon-csharp-plain",
+                "level": "65"
+            },
+            {
+                "name": "Java",
+                "class": "devicon-java-plain",
+                "level": "65"
+            },
+            {
+                "name": "Flutter",
+                "class": "devicon-flutter-plain",
+                "level": "60"
+            },
+            {
+                "name": "Firebase",
+                "class": "devicon-firebase-plain",
+                "level": "60"
+            }
+        ]
+    }
 }
