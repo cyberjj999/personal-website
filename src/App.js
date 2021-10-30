@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 // import ContactForm from "./components/ContactForm";
 import { Navbar, Nav } from "react-bootstrap";
+import Accolades from "./components/Accolades";
 
 class App extends Component {
   constructor(props) {
@@ -152,6 +153,10 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
+        {/* <Accolades
+          resumeAccolades={this.state.resumeData.accolades}
+          resumeBasicInfo={this.state.resumeData.basic_info}
+        /> */}
         <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
