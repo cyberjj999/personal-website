@@ -18,7 +18,7 @@ class Projects extends Component {
         let detailsModalClose = () =>
             this.setState({ detailsModalShow: false });
         if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-            // var sectionName = this.props.resumeBasicInfo.section_name.projects;  // I change to Semester Project for now
+            // var sectionName = this.props.resumeBasicInfo.section_name.projects; // I change to Semester Project for now
             var sectionName = "School Projects in Nanyang Polytechnic";
             var projects = this.props.resumeProjects.map(function (projects) {
                 return (
